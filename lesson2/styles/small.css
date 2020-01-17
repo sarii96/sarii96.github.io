@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section {
+    /* max-width: 300px; */
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+h1,h2 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-color:#f1e3dd;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+}
+header{
+    background-color: #667292 ;
+    margin:none ;
+   color:white;
+}
