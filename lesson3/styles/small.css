@@ -1,0 +1,50 @@
+
+ul {
+    list-style: none;
+   }
+   
+   nav ul li a {
+       text-decoration: none;
+       padding: 10px;
+       border:1px;
+   }
+   .flex {
+       display: flex;
+       justify-content: space-evenly;
+       flex-direction: column;
+   }
+
+
+img {
+    width:150px ;
+    height: 150px ;
+}
+
+nav {
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: skyblue;
+  }
+  nav > ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    margin: 0;
+  }
+  nav a {
+    padding: 1em;
+    min-width: 70px;
+  }
+  nav a:link,
+  nav a:visited {
+    color:royalblue;
+    font-size: 18px;
+  }
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+ main {
+     text-align: center;
+ }
