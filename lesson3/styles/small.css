@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
 ul {
     list-style: none;
@@ -38,3 +41,24 @@ img {
   body {
     background-color:bisque;
   }
+#Anton {
+    font-family: 'Anton', sans-serif
+}
+
+#Oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+#Roboto {
+    font-family: 'Roboto Slab', serif;
+}
+
+#type {
+    width: 350px ;
+    height: 200px;
+}
+
+#color {
+    width: 500px ;
+    height: 400px;
+}
