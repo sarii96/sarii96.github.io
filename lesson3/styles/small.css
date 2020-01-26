@@ -89,3 +89,10 @@ li {
 section {
     text-align: left;
 }
+footer {
+    background-color: lightskyblue;
+    color: white;
+    text-align:center;
+    font-size: medium;
+    padding:1em ;
+  }
