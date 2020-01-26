@@ -34,7 +34,9 @@ img {
 
  main {
      text-align: center;
-    
+      margin: 1.25rem auto;
+        padding: .5rem;
+        max-width: 800px;
  }
  nav {
   background-color: lightskyblue;
@@ -74,4 +76,16 @@ img {
 
     width: 450px ;
     height: 250px;
+}
+
+
+#scenario{
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+section {
+    text-align: left;
 }
