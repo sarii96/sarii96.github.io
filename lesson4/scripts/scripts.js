@@ -31,3 +31,18 @@ let fullDate = daysofweek[dayofweek];
 fullDate += ", " + numberday + " " + months[currentDate.getMonth()] + " " + year;
 
 document.querySelector('#current-date').textContent = fullDate;
+
+// -------------------------------------------------------------------------
+// -------------------------------------------------------------------------
+
+const hamButton =
+document.querySelector(".ham");
+hamButton.addEventListener("click", toggleMenu, false);
+
+function toggleMenu() {
+
+    document.querySelector(".navigation").classList.toggle("responsive");
+}
+
+
+

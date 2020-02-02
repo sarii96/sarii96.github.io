@@ -4,15 +4,24 @@
 
     }
 
-    #burger {
+    #ham {
         display: none;
     }
     nav ul li a {
         border: none;
     }
+    .navigation li:first-child {
+		display: none;
+    }
+    
+    .navigation li {
+        display: block;
+    }
+    .navigation {
+        display: flex;
+        
+    }
 }
-
-
 
   
 

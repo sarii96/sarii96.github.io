@@ -66,11 +66,20 @@ header h2 {
     font-size: 1em;
 }
 
-.responsive li {
-	display: block;
-}
+
 
 header, h1, h2, footer, nav {
     font-family: 'PT Sans', sans-serif
 }
 
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.responsive li {
+	display: block;
+}

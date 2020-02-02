@@ -10,3 +10,4 @@ const string = document.lastModified;
 
 console.log(string);
 document.getElementById("lastModification").innerHTML = string;
+
