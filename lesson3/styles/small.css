@@ -9,8 +9,7 @@ ul {
    nav ul li a {
        text-decoration: none;
        padding: 10px;
-       border:1px;
-     
+      
      
    }
    .flex {
@@ -28,8 +27,8 @@ ul {
 
 
 img {
-    width:150px ;
-    height: 150px ;
+    widows: 20px;0px ;
+    height: 200px ;
 }
 
  main {

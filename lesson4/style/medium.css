@@ -1,0 +1,18 @@
+@media only screen and (min-width: 32.5em) {
+    ul {
+        flex-direction: row;
+
+    }
+
+    #burger {
+        display: none;
+    }
+    nav ul li a {
+        border: none;
+    }
+}
+
+
+
+  
+
