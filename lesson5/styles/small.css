@@ -50,8 +50,9 @@ footer {
 
 
 main {
-    background-color:#80C7F2;
-    padding: 10px;
+    background-color: white;
+    padding: 2em;
+    padding-top: 0em;
 
 
 }
@@ -84,10 +85,68 @@ header, h1, h2, footer, nav {
 	display: block;
 }
 
+#hero{
+    background-image: url(/lesson5/images/weather.jpg);
+    height: 410px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
 .center {
     display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
   
+}
+
+#town-preston {
+
+}
+ #weather-summary {
+     background-color: white;
+     opacity: 0.5;
+     position: relative;
+     bottom: -1em;
+     width: 20em;
+     height: 15em ;
+     margin-left: 5em;
+     font-size: 20px;
+     padding: 1em;
+     }
+#weather-summary div {
+    padding: .2em 1em;
+}
+
+
+    .summary{
+         text-align: center;
+         
+        
+     }
+table, th, th {
+    border: 2px solid white;
+   font-size: 15px ;
+   margin: auto;
+   color: white;
+   background-color: #052A59;
+
+
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em ;
+}
+th {
+    height: 50px;
+}
+
+#town-preston img {
+    width: 400px ;
+    height: 400px ;
 }
