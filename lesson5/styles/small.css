@@ -51,8 +51,8 @@ footer {
 
 main {
     background-color: white;
-    padding: 2em;
-    padding-top: 0em;
+    padding: 4em;
+    
 
 
 }
@@ -90,7 +90,7 @@ header, h1, h2, footer, nav {
     height: 410px;
     background-size: cover;
     background-position: center;
-    
+   
 }
 
 .center {
@@ -101,9 +101,9 @@ header, h1, h2, footer, nav {
   
 }
 
-#town-preston {
 
-}
+
+
  #weather-summary {
      background-color: white;
      opacity: 0.5;
@@ -114,6 +114,7 @@ header, h1, h2, footer, nav {
      margin-left: 5em;
      font-size: 20px;
      padding: 1em;
+
      }
 #weather-summary div {
     padding: .2em 1em;
@@ -139,7 +140,7 @@ table{
     width: 50%;
     text-align: center;
     margin: auto;
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
     margin-top: 1.5em ;
 }
 th {
@@ -147,6 +148,20 @@ th {
 }
 
 #town-preston img {
-    width: 400px ;
-    height: 400px ;
+    width: 500px ;
+    height: 450px ;
+    margin: .5em;
+    padding: .5em;
+}
+
+iframe {
+    margin-top: 1em;
+   
+}
+
+article img {
+    
+        float: right;
+        margin: 0 0 1em 1em;
+      
 }

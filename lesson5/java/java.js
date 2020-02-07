@@ -55,7 +55,7 @@ document.getElementById("humidity").innerHTML= "93%";
 // -------------------------------------------------------------------------
 
 
-const hamButton = document.querySelector(".ham");
+const hamButton = document.querySelector("#ham");
 
 hamButton.addEventListener("click", toggleMenu, false);
 
