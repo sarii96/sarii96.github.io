@@ -34,7 +34,7 @@ header {
 
 body {
     margin: 0;
-    background-color:#80C7F2;
+    
 }
 h1,
 h2 {
@@ -51,7 +51,7 @@ footer {
 
 main {
     background-color: white;
-    padding: 4em;
+    padding: 2em;
     
 
 
@@ -101,8 +101,17 @@ header, h1, h2, footer, nav {
   
 }
 
+.flex{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
-
+address{
+       margin: 1em;
+       padding: 1em;
+       
+}
 
  #weather-summary {
      background-color: white;
@@ -156,6 +165,7 @@ th {
 
 iframe {
     margin-top: 1em;
+    margin-bottom: 1em;
    
 }
 
@@ -165,3 +175,27 @@ article img {
         margin: 0 0 1em 1em;
       
 }
+
+#contact{
+    background-color: lightgray;
+    border-radius: 25px;
+    margin: 2em;
+    padding: 2em;
+}
+
+#town-preston {
+    background-color: lightgray;
+    border-radius: 25px;
+    margin: 2em;
+    padding: 2em;
+  
+}
+#Five-Day {
+    background-color: lightgray;
+    border-radius: 25px;
+    margin: 2em;
+    padding: 2em;
+    
+   
+}
+
