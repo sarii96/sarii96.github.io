@@ -66,3 +66,11 @@ function toggleMenu() {
 // -------------------------------------------------------------------------
 // -------------------------------------------------------------------------
 
+let pday = new Date();
+let aside = document.querySelector('aside');
+if (pday.getDay() === 5) {
+    aside.style.display = "block";
+}
+else {
+    aside.style.display = "none";
+}
