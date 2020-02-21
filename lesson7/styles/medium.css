@@ -31,7 +31,7 @@
         transition: filter 0.5s;
         border: 1px solid black ;
         padding: 2px;
-     
+        margin: 1em;
       }
     
     .pictures {
