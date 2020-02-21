@@ -1,0 +1,24 @@
+@media only screen and (min-width: 64em) {
+
+  
+    .navigation{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navigation li:first-child{
+        display: none;    
+    
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;  
+    }
+    #hero{
+        background-image: url(/lesson6/images/cit230_large\ \(1\).jpg);
+        
+    }
+}
+
+  
+
