@@ -14,9 +14,22 @@
         display: block;
         flex: 1 1 100%;  
     }
-    #hero{
-        background-image: url(/lesson6/images/cit230_large\ \(1\).jpg);
-        
+    img[data-src] {
+        filter: blur(0.2em);
+      }
+      
+       img {
+        filter: blur(0em);
+        transition: filter 0.5s;
+        border: 1px solid black ;
+        padding: 2px;
+     
+      }
+    
+    .pictures {
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+        text-align: center;
     }
 }
 
