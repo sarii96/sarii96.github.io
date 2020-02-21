@@ -31,18 +31,10 @@ if ('IntersectionObserver' in window) {
     imagesToLoad.forEach((img) => {
         loadImages(img);
     });
-}
 
-//-----------------------------------------------------
+  }
 
-
-
-
-imagesToLoad.forEach((img) => {
-    loadImages(img);
-  });
-
-
+//----------------------------------------------------------
 
   WebFont.load({
     google: {
