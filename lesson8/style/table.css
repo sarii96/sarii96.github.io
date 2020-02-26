@@ -3,7 +3,7 @@ table, caption,tr, th, td {
     border-collapse: collapse;
     padding: 5px;
     text-align: center;
-  
+   
 }
 
 tr{
@@ -33,4 +33,7 @@ tfoot td{
 body{
     font-family: 'Ubuntu', sans-serif ;
     font-size: 400 ;
+}
+table {
+    box-shadow: 0 0 20px #000000b6
 }
