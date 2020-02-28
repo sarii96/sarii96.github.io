@@ -1,7 +1,7 @@
 table, caption,tr, th, td {
     border: 1px solid gray;
     border-collapse: collapse;
-    padding: 12px;
+    padding: 10px;
     text-align: center;
    
 }
