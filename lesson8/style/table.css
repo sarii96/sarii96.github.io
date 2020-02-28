@@ -1,7 +1,7 @@
 table, caption,tr, th, td {
     border: 1px solid gray;
     border-collapse: collapse;
-    padding: 5px;
+    padding: 12px;
     text-align: center;
    
 }
@@ -34,6 +34,6 @@ body{
     font-family: 'Ubuntu', sans-serif ;
     font-size: 400 ;
 }
-table {
-    box-shadow: 0 0 20px #000000b6;
+table, caption {
+    box-shadow: 10px 10px 5px #628ca6 ;
 }

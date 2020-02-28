@@ -1,0 +1,41 @@
+@media only screen and (min-width: 32.5em) {
+    ul {
+        flex-direction: row;
+
+    }
+
+    #ham {
+        display: none;
+    }
+    nav ul li a {
+        border: none;
+    }
+    .navigation li:first-child {
+		display: none;
+    }
+    
+    .navigation li {
+        display: block;
+    }
+    .navigation {
+        display: flex;
+        
+    }
+
+    img[data-src] {
+        filter: blur(0.2em);
+      }
+      
+       img {
+        filter: blur(0em);
+        transition: filter 0.5s;
+      
+      }
+    
+    .pictures {
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+        text-align: center;
+    }
+    
+}
