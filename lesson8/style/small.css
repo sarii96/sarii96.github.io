@@ -150,15 +150,17 @@ figcaption{
 
 label{
     display: inline-block;
-    width: 130px;
+    width: 150px;
     padding: 10px 10px 10px 0;
     text-align: right;
+  
 }
 
 #form-container{
     max-width: 500px;
     margin: auto;
     margin-bottom: 50px;
+    margin-top: 50px;
    
 }
 
