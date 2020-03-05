@@ -1,0 +1,28 @@
+@media only screen and (min-width: 32.5em) {
+    ul {
+        flex-direction: row;
+
+    }
+
+    #ham {
+        display: none;
+    }
+    nav ul li a {
+        border: none;
+    }
+    .navigation li:first-child {
+		display: none;
+    }
+    
+    .navigation li {
+        display: block;
+    }
+    .navigation {
+        display: flex;
+        
+    }
+    #cities{
+        display: grid ;
+        grid-template-columns: 1fr 1fr;
+}
+}
