@@ -117,3 +117,20 @@ h1 {
      height: 250px;
  }
 
+ article{
+    
+border: 1px solid gray;
+box-shadow: 0 0 10px 0 navy;
+margin: 1em;
+padding: 1em;
+
+ }
+
+ article h1{
+     color: navy;
+ }
+
+
+
+
+
