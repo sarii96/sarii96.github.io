@@ -54,12 +54,10 @@
      <article id="weather-summary">
          <h1 class="summary">Weather Summary</h1>
          <div>
+             <span id="weatherDesc"></span>
             <img id="weatherImage" src="" alt=""></img>
         </div>
-         <div>
-            <div>
-                <span id="weatherDesc"></span>
-            </div>
+        <div>
           <span>Current Temperature:</span>
           <span id="currentTemp"></span>
          </div>
@@ -67,6 +65,10 @@
              <span>Wind Speed: </span>
              <span id="windSpeed"></span>
          </div>
+         <div>
+            <span>Wind Chill: </span>
+            <span id="windChill"></span>
+        </div>
      </article>      
     </section>
     <section id="Five-Day">
@@ -147,7 +149,6 @@
     <footer>
         &copy; Recreation Weather | <span id="current-date"></span> | Sarah Romero
     </footer>
-    <script src="script/main.js"></script>
     <script src="script/windchill.js"></script>
 </body>
 </html>
