@@ -138,15 +138,19 @@ address{
          
         
      }
-table, th, th {
+table, th {
     border: 2px solid white;
    font-size: 15px ;
    margin: auto;
    color: white;
    background-color: #052A59;
    font-family: 'Roboto', sans-serif;
-
+  
 }
+td{
+padding-bottom: 1em;
+}
+
 table{
     border-collapse: collapse;
     width: 50%;

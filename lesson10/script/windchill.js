@@ -55,9 +55,9 @@ fetch(apiURLForecast)
         forecast => {
           if (forecast.dt_txt.includes('18:00')) {
             let forecastDate = new Date(forecast.dt_txt.replace(' ', 'T'));
-            let dayofWeek = daysofWeek[forecastDate.getDay()];
+            let dayofweek = daysofweek[forecastDate.getDay()];
 
-            document.getElementById(`day${counter}`).textContent = dayofWeek;
+            document.getElementById(`day${counter}`).textContent = dayofweek;
 
             document.getElementById(`temp${counter}`).innerHTML = forecast.main.temp.toFixed(0) + '&deg';
             console.log(forecast);
