@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/small.css">
+    <link rel="stylesheet" href="style/medium.css">
+    <link rel="stylesheet" href="style/large.css">
+</head>
+<body onload="getEvents('Soda Springs'); getWeatherData('5607916');">
+    <aside class="pancakes">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p>
+    </aside>
+ <header>
+        <img src="images/Weather+Targeting.png" atl="logo">
+        <div>
+            <h1> Recreation Weather</h1>
+            <h2><em> Bad Weather doesn't mean you can't have fun</em></h2>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li id="ham">&equiv; Menu</li>
+            <li>
+                <a href="/lesson9/index.html">Home</a>
+            </li>
+            <li>
+                <a href="/lesson11/preston.html">Preston</a>
+            </li>
+            <li>
+                <a href="/lesson11/soda-springs.html">Soda Springs</a>
+            </li>
+            <li>
+                <a href="/lesson11/fish-haven.html">Fish Haven</a>
+            </li>
+            <li>
+                <a href="/lesson8/stormcenter.html">Storm Center</a>
+            </li>
+            <li>
+                <a href="/lesson7/gallery-7.html">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>The Town of Soda Springs</h1>
+        <div class= "grid">
+    <section id = "hero">
+     <!-- <img src="images/weather.jpg" alt="sunrise" class="center"> -->
+     <article id="weather-summary">
+         <h1 class="summary">Weather Summary</h1>
+         <div>
+             <span id="weatherDesc"></span>
+            <img id="weatherImage" src="" alt=""></img>
+        </div>
+        <div>
+          <span>Current Temperature:</span>
+          <span id="currentTemp"></span>
+         </div>
+         <div>
+             <span>Wind Speed: </span>
+             <span id="windSpeed"></span>
+         </div>
+         <div>
+            <span>Wind Chill: </span>
+            <span id="windChill"></span>
+        </div>
+     </article>      
+    </section>
+    <section id="Five-Day">
+          <h1>Five-Day Forecast</h1>
+          <table>
+                <thead>
+                    <tr>
+                        <th id="day1">Day 1</th>
+                        <th id="day2">Day 2</th>
+                        <th id="day3">Day 3</th>
+                        <th id="day4">Day 4</th>
+                        <th id="day5">Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="" alt="" id="weather1"></td>
+                        <td><img src="" alt="" id="weather2"></td>
+                        <td><img src="" alt="" id="weather3"></td>
+                        <td><img src="" alt="" id="weather4"></td>
+                        <td><img src="" alt="" id="weather5"></td>
+                    </tr>
+                    <tr>
+                        <td id="temp1"></td>
+                        <td id="temp2"></td>
+                        <td id="temp3"></td>
+                        <td id="temp4"></td>
+                        <td id="temp5"></td>
+                    </tr>
+                </tbody>
+          </table>
+    </section>
+    <section id="upcoming">
+        <h3>Upcomming Events:</h3>
+        <hr>
+        <ul id="events">
+        </ul>
+    </section>
+    <section id="piece">
+       <article id="town-soda">
+           <h1>Soda Springs</h1>
+       <img src="images/sodasprings.jpg" atl="town">
+       <p>Soda Springs is a city in Caribou County, Idaho, United States. Its population was 3,058 at the 2010 census.<br>
+         The city has been the county seat of Caribou County since the county was organized in 1919. In the 1860s, Soda Springs served as the seat of Oneida County.</p>
+         <p><strong>History</strong></p>
+         <p>
+            The city is named for the hundreds of natural springs of carbonated water that are located in and around the city.The springs were well known to Native Americans<br>
+             and were a famous landmark along the Oregon Trail in the middle 19th century. Today the city is also known as the location of the Soda Springs Geyser, which was<br>
+             unleashed in 1934 when "town fathers" were looking for hot water for a "hot pool" bathing attraction. Instead they drilled into a chamber of highly pressurized<br>
+             carbon dioxide gas and cold water and the geyser was released. After running for weeks, and flooding the downtown area, it was capped and manually released when requested as a tourist attraction. <br>
+             Now it is let loose every hour on the hour by a timed release valve. Its height and volume have not decreased after many years. There are viewing platforms at either end of the travertine mound<br>
+             where the geyser erupts. Interpretive signs are located on the platforms explaining this phenomenon.<br>
+             Soda Springs is also the location of one of the Ground Observer Corps sites.
+             <p><strong>Best places to visit in Soda Springs</strong></p>
+             <ol>
+                 <li>Geyser Park</li>
+                 <li>Hooper Springs Park</li>
+                 <li>Octagon Springs Park</li>
+             </ol>
+         </p>
+      </article>
+    </section>
+    <section id="contact" >
+     <h1>Contact Us</h1>
+     <div class="flex">
+     <address>
+         <h3>Recreation Weather</h3>
+         525 S Center St<br>
+         Rexburg, ID 83460<br>
+         Tel: (208) 496-1411<br>
+         Email:ask@byui.edu<br>
+     </address>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.0082163285338!2d-111.78527078462793!3d43.81418897911605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1581113882568!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    </section>
+    </main>
+    <footer>
+        &copy; Recreation Weather | <span id="current-date"></span> | Sarah Romero
+    </footer>
+    <script src="script/windchill.js"></script>
+    <script src="script/towndata.js"></script>
+ 
+</body>
+</html>

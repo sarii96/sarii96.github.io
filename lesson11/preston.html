@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/small.css">
+    <link rel="stylesheet" href="style/medium.css">
+    <link rel="stylesheet" href="style/large.css">
+</head>
+<body onload="getEvents('Preston'); getWeatherData('5604473');">
+    <aside class="pancakes">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p>
+    </aside>
+ <header>
+        <img src="images/Weather+Targeting.png" atl="logo">
+        <div>
+            <h1> Recreation Weather</h1>
+            <h2><em> Bad Weather doesn't mean you can't have fun</em></h2>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li id="ham">&equiv; Menu</li>
+            <li>
+                <a href="/lesson9/index.html">Home</a>
+            </li>
+            <li>
+                <a href="/lesson10/preston10.html">Preston</a>
+            </li>
+            <li>
+                <a href="/lesson11/soda-springs.html">Soda Springs</a>
+            </li>
+            <li>
+                <a href="/lesson11/fish-haven.html">Fish Haven</a>
+            </li>
+            <li>
+                <a href="/lesson8/stormcenter.html">Storm Center</a>
+            </li>
+            <li>
+                <a href="/lesson7/gallery-7.html">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>The Town of Preston</h1>
+        <div class= "grid">
+    <section id = "hero">
+     <!-- <img src="images/weather.jpg" alt="sunrise" class="center"> -->
+     <article id="weather-summary">
+         <h1 class="summary">Weather Summary</h1>
+         <div>
+             <span id="weatherDesc"></span>
+            <img id="weatherImage" src="" alt=""></img>
+        </div>
+        <div>
+          <span>Current Temperature:</span>
+          <span id="currentTemp"></span>
+         </div>
+         <div>
+             <span>Wind Speed: </span>
+             <span id="windSpeed"></span>
+         </div>
+         <div>
+            <span>Wind Chill: </span>
+            <span id="windChill"></span>
+        </div>
+     </article>      
+    </section>
+    <section id="Five-Day">
+          <h1>Five-Day Forecast</h1>
+          <table>
+                <thead>
+                    <tr>
+                        <th id="day1">Day 1</th>
+                        <th id="day2">Day 2</th>
+                        <th id="day3">Day 3</th>
+                        <th id="day4">Day 4</th>
+                        <th id="day5">Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="" alt="" id="weather1"></td>
+                        <td><img src="" alt="" id="weather2"></td>
+                        <td><img src="" alt="" id="weather3"></td>
+                        <td><img src="" alt="" id="weather4"></td>
+                        <td><img src="" alt="" id="weather5"></td>
+                    </tr>
+                    <tr>
+                        <td id="temp1"></td>
+                        <td id="temp2"></td>
+                        <td id="temp3"></td>
+                        <td id="temp4"></td>
+                        <td id="temp5"></td>
+                    </tr>
+                </tbody>
+          </table>
+    </section>
+    <section id="upcoming">
+        <h3>Upcomming Events:</h3>
+        <hr>
+        <ul id="events">
+        </ul>
+    </section>
+    <section id="piece">
+       <article id="town-preston">
+           <h1>Activities in Preston</h1>
+       <img src="images/preston.jpg" atl="town">
+       <p>There’s something for everyone here in Preston, from the arts to the outdoors. We enjoy our hometown environment.  As we grow, we are finding ways of preserving the variety of wildlife that resides in the mountains, fields and reservoirs around us, 
+           the family owned businesses and the quite neighborhoods.</p>
+
+       <p><strong>MOVING HISTORY!</strong><br>
+        Constructed in 1895, the Oneida Stake Academy building has a new home on the corner of Benson Park. The Mormon Historical Sites Foundation and the Friends of the Academy  raised the money to move the 108 year-old building to the Benson Park, 
+        approximately two blocks away from it’s current location. They are now raising money to fund the Academy’s restoration. </p>
+
+       <p><strong> THAT FAMOUS PRESTON NIGHT RODEO!</strong><br>
+         During the first weekend of August on Thursday through Saturday, Preston presents That Famous Preston Night Rodeo. It’s a PRCA event everyone will want to see. In the Morning and Afternoon come downtown for the city-wide sidewalk sales, 
+         Craft, Vendor and Antique Fair on State Street,  the Kids Festival, Live Entertainment, parade, and a Wild West Shoot Out. We have two lovely tree filled parks and RV facilities in the heart of town. There are antique shops, clothing boutiques, craft and collectable establishments, general merchandise and convenience stores.
+        
+        <p><strong>SNOWMOBILING!</strong>The Preston Hill Climb occurs every year during the Last Weekend in January.  It is exciting and spectators can see some of the best snowmobilers in the country.</p>
+        
+        <p><strong>RECREATION!</strong> Awaiting the fishermen and water-skiers who come from miles around are nine reservoirs. Peaceful campgrounds and refreshing hikes are within an easy distance. Snowmobiling is a favorite sport in the Bear River Range of the Wasatch Mountains and the Wellsville and Malad Ranges surrounding our town. 
+            The local hunting opportunities include: deer, elk, moose, pheasant, duck, geese and mountain lion. Hunting and fishing regulations and licenses are available at many of our stores.</p>
+        <p>Whether you are site-seeing or hunting the wildlife is abundant. Occasionally wildlife can be seen in our backyards and fields, but mostly in the beautiful mountains and near the many waterways.
+        Historic sites and scenic views can also be navigated on the Pioneer Historic Byway that passes through Preston on Highway 91. We hope that you will get off I-15 and come visit our beautiful  hometown of Preston.</p>
+       
+        <p><strong>FESTIVAL OF LIGHTS!</strong>  When the weather cools and the trees lining downtown turn color the whole town begins to buzz in preparation of The Festival of Lights held on the Friday and Saturday following Thanksgiving.  This weekend is filled with shopping, 
+            bed racing, musical and theatrical events, music filled streets, children’s activities, and CHRISTMAS LIGHTS. The night features a lighted parade, fireworks, and a spectacular turning on of all the lights. The lights will stay up and turned on until the beginning of the new year.
+             You’ll want to make the Festival of Lights an annual trip to Preston.</p>
+           <p> This now peaceful valley is the site of one of the most tragic meetings of two cultures that the state has ever experienced. At 1:00 am on January 29, 1863, an infantry of soldiers with all their weapons moved through the snow drifts into
+             position to attack a band of 450 Shoshoni men, women, and children that had camped along the banks of the Bear River. The troops began the attack at the crack of dawn just as they  were lighting their first campfires.
+              The Shoshoni lost nearly 275 people due to this cruel attack of the California Volunteers. The battle became one of the worst disasters for Native Americans in the west.</p>
+          <p> Preston is the home town of Napoleon Dynamite! Visit the sites where the movie was filmed, eat some tots and pick up a flippin’ sweet Napoleon Dynamite T-Shirt while you are there. </p>
+      </article>
+    </section>
+    <section id="contact" >
+     <h1>Contact Us</h1>
+     <div class="flex">
+     <address>
+         <h3>Recreation Weather</h3>
+         525 S Center St<br>
+         Rexburg, ID 83460<br>
+         Tel: (208) 496-1411<br>
+         Email:ask@byui.edu<br>
+     </address>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.0082163285338!2d-111.78527078462793!3d43.81418897911605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1581113882568!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    </section>
+    </main>
+    <footer>
+        &copy; Recreation Weather | <span id="current-date"></span> | Sarah Romero
+    </footer>
+    <script src="script/windchill.js"></script>
+    <script src="script/towndata.js"></script>
+    
+</body>
+</html>

@@ -20,7 +20,7 @@ fetch(apiURL)
             .setAttribute('src', image)
            let alt = jsObject.weather[0].description;
             document.querySelector('#weather-icon')
-
+             
             .setAttribute('alt', alt)
               
         }

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style/medium.css">
     <link rel="stylesheet" href="style/large.css">
 </head>
-<body>
+<body onload="getEvents('Fish Haven'); getWeatherData('5585010');">
     <aside class="pancakes">
         <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p>
     </aside>
@@ -30,13 +30,13 @@
                 <a href="/lesson9/index.html">Home</a>
             </li>
             <li>
-                <a href="/lesson10/preston10.html">Preston</a>
+                <a href="/lesson11/preston.html">Preston</a>
             </li>
             <li>
-                <a href="#">Soda Springs</a>
+                <a href="/lesson11/soda-springs.html">Soda Springs</a>
             </li>
             <li>
-                <a href="#">Fish Haven</a>
+                <a href="/lesson11/fish-haven.html">Fish Haven</a>
             </li>
             <li>
                 <a href="/lesson8/stormcenter.html">Storm Center</a>
@@ -47,7 +47,7 @@
         </ul>
     </nav>
     <main>
-        <h1>The Town of Preston</h1>
+        <h1>The Town of Fish Haven</h1>
         <div class= "grid">
     <section id = "hero">
      <!-- <img src="images/weather.jpg" alt="sunrise" class="center"> -->
@@ -101,35 +101,21 @@
                 </tbody>
           </table>
     </section>
+    <section id="upcoming">
+        <h3>Upcomming Events:</h3>
+        <hr>
+        <ul id="events">
+        </ul>
+    </section>
     <section id="piece">
-       <article id="town-preston">
-           <h1>Activities in Preston</h1>
-       <img src="images/preston.jpg" atl="town">
+       <article id="town-fish">
+           <h1>Fish Haven</h1>
+       <img src="images/fishhaven.jpg" atl="town">
        <p>There’s something for everyone here in Preston, from the arts to the outdoors. We enjoy our hometown environment.  As we grow, we are finding ways of preserving the variety of wildlife that resides in the mountains, fields and reservoirs around us, 
            the family owned businesses and the quite neighborhoods.</p>
-
-       <p><strong>MOVING HISTORY!</strong><br>
-        Constructed in 1895, the Oneida Stake Academy building has a new home on the corner of Benson Park. The Mormon Historical Sites Foundation and the Friends of the Academy  raised the money to move the 108 year-old building to the Benson Park, 
-        approximately two blocks away from it’s current location. They are now raising money to fund the Academy’s restoration. </p>
-
-       <p><strong> THAT FAMOUS PRESTON NIGHT RODEO!</strong><br>
-         During the first weekend of August on Thursday through Saturday, Preston presents That Famous Preston Night Rodeo. It’s a PRCA event everyone will want to see. In the Morning and Afternoon come downtown for the city-wide sidewalk sales, 
-         Craft, Vendor and Antique Fair on State Street,  the Kids Festival, Live Entertainment, parade, and a Wild West Shoot Out. We have two lovely tree filled parks and RV facilities in the heart of town. There are antique shops, clothing boutiques, craft and collectable establishments, general merchandise and convenience stores.
-        
-        <p><strong>SNOWMOBILING!</strong>The Preston Hill Climb occurs every year during the Last Weekend in January.  It is exciting and spectators can see some of the best snowmobilers in the country.</p>
-        
-        <p><strong>RECREATION!</strong> Awaiting the fishermen and water-skiers who come from miles around are nine reservoirs. Peaceful campgrounds and refreshing hikes are within an easy distance. Snowmobiling is a favorite sport in the Bear River Range of the Wasatch Mountains and the Wellsville and Malad Ranges surrounding our town. 
-            The local hunting opportunities include: deer, elk, moose, pheasant, duck, geese and mountain lion. Hunting and fishing regulations and licenses are available at many of our stores.</p>
-        <p>Whether you are site-seeing or hunting the wildlife is abundant. Occasionally wildlife can be seen in our backyards and fields, but mostly in the beautiful mountains and near the many waterways.
-        Historic sites and scenic views can also be navigated on the Pioneer Historic Byway that passes through Preston on Highway 91. We hope that you will get off I-15 and come visit our beautiful  hometown of Preston.</p>
-       
-        <p><strong>FESTIVAL OF LIGHTS!</strong>  When the weather cools and the trees lining downtown turn color the whole town begins to buzz in preparation of The Festival of Lights held on the Friday and Saturday following Thanksgiving.  This weekend is filled with shopping, 
-            bed racing, musical and theatrical events, music filled streets, children’s activities, and CHRISTMAS LIGHTS. The night features a lighted parade, fireworks, and a spectacular turning on of all the lights. The lights will stay up and turned on until the beginning of the new year.
-             You’ll want to make the Festival of Lights an annual trip to Preston.</p>
-           <p> This now peaceful valley is the site of one of the most tragic meetings of two cultures that the state has ever experienced. At 1:00 am on January 29, 1863, an infantry of soldiers with all their weapons moved through the snow drifts into
-             position to attack a band of 450 Shoshoni men, women, and children that had camped along the banks of the Bear River. The troops began the attack at the crack of dawn just as they  were lighting their first campfires.
-              The Shoshoni lost nearly 275 people due to this cruel attack of the California Volunteers. The battle became one of the worst disasters for Native Americans in the west.</p>
-          <p> Preston is the home town of Napoleon Dynamite! Visit the sites where the movie was filmed, eat some tots and pick up a flippin’ sweet Napoleon Dynamite T-Shirt while you are there. </p>
+           <p>Fish Haven, originally named Rush Creek, is an unincorporated community along the shores of Bear Lake in Bear Lake County, Idaho, United States. It is 4 km (2.5 miles) north of the Utah border.</p>
+           <p><strong>History</strong></p>
+           <p>The first settlement at Fish Haven was made in 1864. A post office called Fish Haven was established in 1867, and remained in operation until 1962. The community was so named because nearby Bear Lake is a favorite fishing spot.</p>
       </article>
     </section>
     <section id="contact" >
@@ -150,5 +136,7 @@
         &copy; Recreation Weather | <span id="current-date"></span> | Sarah Romero
     </footer>
     <script src="script/windchill.js"></script>
+    <script src="script/towndata.js"></script>
+   
 </body>
 </html>

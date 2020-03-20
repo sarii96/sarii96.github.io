@@ -4,12 +4,21 @@ ul {
     flex-direction: column;
     margin: auto;
     justify-content: center;
-    background-color: #F2B84B;
     padding: 20px;
     text-align: center;
     font-size:  20px;
-   
 
+}
+.navigation{
+    background-color: #F2B84B;
+}
+
+#upcoming  {
+    background-color: lightgray;
+    border-radius: 25px;
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
 }
 
 
@@ -170,6 +179,19 @@ th {
     padding: .5em;
 }
 
+#town-fish img {
+    width: 350px ;
+    height: 200px ;
+    margin: .5em;
+    padding: .5em;
+}
+#town-soda img {
+    width: 450px ;
+    height: 300px ;
+    margin: .5em;
+    padding: .5em;
+}
+
 iframe {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -183,6 +205,8 @@ article img {
       
 }
 
+
+
 #contact{
     background-color: lightgray;
     border-radius: 25px;
@@ -195,8 +219,25 @@ article img {
     border-radius: 25px;
     margin: 2em;
     padding: 2em;
-  
 }
+
+#town-fish {
+    background-color: lightgray;
+    border-radius: 25px;
+    margin: 2em;
+    padding: 2em;
+}
+
+#town-soda {
+    background-color: lightgray;
+    border-radius: 25px;
+    margin: 2em;
+    padding: 2em;
+}
+
+
+
+        
 #Five-Day {
     background-color: lightgray;
     border-radius: 25px;
@@ -227,4 +268,8 @@ article img {
 
  a{
     font-family: 'Roboto', sans-serif;
+ }
+
+ #events{
+     display: block;
  }
