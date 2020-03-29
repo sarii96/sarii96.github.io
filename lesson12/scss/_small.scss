@@ -13,18 +13,21 @@ body {
 
 header {
     background-color: $primaryColor;
-    padding: 1rem 2%;
-}
-header h1 {
-	margin: 0; 
-    font-size: 1.5rem;
-    font-weight: $heavyWeight;
-}
-header h2{
-	margin: 0; 
-	font-size: 1.2rem; 
-	font-weight: $regularWeight;
-}
+    padding: 1rem $gutter;
+    h1 {
+        margin: 0; 
+        font-size: 1.5rem;
+        font-weight: $heavyWeight;
+    }//end of h1
+
+    h2{
+        margin: 0; 
+        font-size: 1.2rem; 
+        font-weight: $regularWeight;
+    } //end of h2
+
+} // end of header 
+
 
 nav {background-color: #111;}
 nav ul{margin:0; padding: 0;}
@@ -39,7 +42,7 @@ nav a {
 }
 nav a:hover {background-color: #444;}
 
-main{display: block; padding: 1rem 2%;}
+main{display: block; padding: 1rem $gutter;}
 main h1 {color: $primaryColor;
 font-weight: $heavyWeight;
 }
@@ -58,7 +61,7 @@ main figcaption {text-align: center; font-size: .8rem;}
 footer {
     background-color: $primaryColor;
     text-align: center;
-    padding: 1rem 2%;
+    padding: 1rem $gutter;
 }
 
 
