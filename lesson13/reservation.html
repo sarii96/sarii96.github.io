@@ -34,7 +34,7 @@
     </nav>   
 
 <main>
-<h1>Reservation</h1>
+<h2>Your Information</h2>
 <form action="thanks.html" method="GET">
     <div>
     <label for="fullName">Full Name </label>
@@ -48,7 +48,43 @@
         <label for="phoneNumber">Phone Number </label>
         <input type="tel" id="phoneNumber" name="phoneNumber" required>
     </div>
-
+    <div>
+        <label for="homeState">Home State</label>
+        <input type="text" id="homeState"  name="homeState">
+    </div>
+   <div>
+       <label for="homeCountry">Home Country</label>
+       <input type="text" id="homeCountry" name="homeCountry">
+   </div>
+   <h2>Reservation</h2>
+   <div>
+    <label for="startDate">Star Date</label> 
+    <input type="date" id="startDate" name="startDate">
+   </div>
+   <div>
+       <label for="endDate">End Date</label>
+       <input type="date" id="endDate" name="endDate">
+   </div>
+   <div>
+       <label for="location">Location</label>
+       <input type="location" id="location" name="location" required>
+       <option> </option>
+   </div>
+   <div>
+       <label for="numberOfGuests">Number of Guests</label>
+       <select required name="numberofGuests" id="numberofGuests">
+       <option value disabled></option>
+       <option value="0"></option>
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7</option>
+       <option value="8">8</option>
+    </select>
+   </div>
     <footer>
         &copy; TEMPLE inn & suite | <span id="current-date"></span> | Sarah Romero
     </footer>
