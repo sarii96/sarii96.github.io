@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
     <header>
-        <img src="" alt="">
-        <div>
-            <h1>TEMPLE inn & suite</h1>
-        </div>
+        <img src="images/temple.jpg" atl="logo">
+       
     </header>
     <na>
         <ul class="navigation">
@@ -74,7 +76,7 @@
        <label for="numberOfGuests">Number of Guests</label>
        <select required name="numberofGuests" id="numberofGuests">
        <option value disabled></option>
-       <option value="0"></option>
+       <option value="0">Select a number...</option>
        <option value="1">1</option>
        <option value="2">2</option>
        <option value="3">3</option>
@@ -84,6 +86,30 @@
        <option value="7">7</option>
        <option value="8">8</option>
     </select>
+    </div>
+    <div>
+        <label for="typeOfRoom">Type of Room</label>
+        <select required name="typeOfRoom" id="typeOfRoom">
+            <option selected disabled>Select a type of Room....</option>
+            <option value="Single">Single</option>
+            <option value="Double">Double</option>
+            <option value="triple">Triple</option>
+            <option value="quad">Quad</option>
+            <option value="suite">suite</option>
+            <option value="mastersuite">Master Suite</option>
+        </select>
+    </div>
+    <div>
+        <input class="addRoom" type="button" value="Add Room">
+    </div>
+    <div>
+        <label for="Comments"> Comments:</label>
+        <textarea name="Comments" id="Comments" cols="30"
+            rows="10"></textarea>
+    </div>
+    <div>
+    <input type="Submit" value="Submit">
+    <input type="Reset" value="Reset">
    </div>
     <footer>
         &copy; TEMPLE inn & suite | <span id="current-date"></span> | Sarah Romero
