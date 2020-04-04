@@ -1,4 +1,4 @@
-ul {
+  ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@ ul {
     padding: 20px;
     text-align: center;
     font-size:  20px;
-
+    background-color: black;
 }
 header{
     background-color: lightseagreen;
@@ -24,12 +24,18 @@ header img {
     
 }
 
+body{
+    background-color: white;
+   
+}
+
 nav ul li a {
     text-decoration: none;
     border-bottom: solid 1px  #AED1D6;
     text-align: center;
     display: block;
-    color: black;
+    color: white;
+
   
 }
 .navigation li:first-child {
@@ -50,4 +56,89 @@ footer {
     background-color:black;
     padding:2em ;
     color: white;
+}
+iframe {
+margin-right: 1em;
+
+}
+#contact{
+    background-color: #F2F3F4;
+    border-radius: 25px;
+    margin: 2em;
+    padding: 2em;
+}
+#reservation {
+    background-color: #F2F3F4;
+    border-radius: 25px;
+    margin: 2em;
+    padding: 2em;
+    }
+
+.flex{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    }
+    .flex2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 112%
+}
+
+#reservation input, textarea, select{
+width: 200%;
+padding: 12px;
+border: 1px solid #ccc;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+padding: 1em; 
+}
+
+#contact input, textarea {
+
+width: 90%;
+padding: 12px;
+border: 1px solid #ccc;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+padding: 1em; 
+
+}
+
+form{
+    margin-right: 2em;
+}
+
+input[type=Submit], [type=Reset]  {
+    text-transform: uppercase;
+}
+
+#contact h1 {
+    margin: 0.5em;
+}
+#reservation h1{
+    margin: 0.5em;
+}
+
+#reservation img{
+    margin: 2em;;
+}
+#reservation form{
+    margin: 2em;
+}
+
+.addRoom {
+    text-transform: uppercase;
+}
+#reservation img {
+  width: 500px ;
+  padding: .5em;
+
+}
+#reservation form{
+    padding-right: 20em;
 }

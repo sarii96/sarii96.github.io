@@ -12,9 +12,8 @@
 <body>
     <header>
         <img src="images/temple.jpg" atl="logo">
-        
     </header>
-    <na>
+    <nav>
         <ul class="navigation">
             <li id="ham">&equiv; Menu</li>
             <li>
@@ -34,11 +33,14 @@
             </li>
         </ul>
     </nav>   
-
+  
 <main>
-    <h1>Contact Us</h1>
+    <section id="contact">
     <div class="flex">
         <form action="thanks.html" method="GET">
+           <div>
+            <h1>Contact Us</h1>
+            </div>
             <div>
             <label for="fullName">Full Name: </label>
             <input type="text" id="fullName" name="fullName"required>
@@ -56,12 +58,17 @@
             <input type="Submit" value="Submit">
             <input type="Reset" value="Reset">
            </div>
-            </form>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013225!2d-77.09772048478816!3d38.98325177955755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1585719054793!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-       </div>
+        </form>
+        <div>
+            <h1>Our Headquarter Location</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013225!2d-77.09772048478816!3d38.98325177955755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1585719054793!5m2!1sen!2sus" width="800" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+  </section>
+</main>  
        <footer>
         &copy; TEMPLE inn & suite | <span id="current-date"></span> | Sarah Romero
     </footer>
+    <script src="javascript/temple.js"></script>
 </body>
-</main>
 </html>
