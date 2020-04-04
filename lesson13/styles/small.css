@@ -164,15 +164,16 @@ margin:2em ;
     text-align: center;
 }
 
-#wedding img{
+#special img{
     width: 400px;
     height: 200px;
     margin: 1em;
 }
 
-#misioneros img{
-    width: 400px;
-    height: 200px;
-    margin: 1em;
+#special{
+    text-align: center;
 }
-
+#thankYou{
+    padding: 5em;
+    text-align: center;
+}

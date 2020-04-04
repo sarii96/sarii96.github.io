@@ -26,5 +26,10 @@
         -webkit-transition: 0.4s;
         filter: saturate(120%) brightness(1.05);
   }
- 
+ .flex3{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+ }
 }
