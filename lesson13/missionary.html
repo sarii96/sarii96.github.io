@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <img src="images/temple.jpg" atl="logo"></header>
+    <nav>
+    </header>
+        <ul class="navigation">
+            <li id="ham">&equiv; Menu</li>
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="temple.html">Temple</a>
+            </li>
+            <li>
+                <a href="reservation.html">Reservation</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact us</a>
+            </li>
+        </ul>
+    </nav>   
+<main>
+    <section id="housing">
+    <h1>Misionary housing</h1>
+    <img src="images/missionaries2.jpg"> 
+    <p>We offer a long-term housing with a kitchen and two bedrooms with their own bathroom for full-missionaries, so they can feel like home during their time serving in the temple.</p>
+    <form action="thanks.html" method="GET">
+        <h2>Contact Us for more information</h2>
+         <div>
+         <label for="fullName">Full Name: </label>
+         <input type="text" id="fullName" name="fullName"required>
+         </div>
+         <div>
+         <label for="email">Email: </label>
+         <input type="email" id="email" name="email" placeholder="example@email.com" required>
+         </div>
+         <div>
+             <label for="Comments"> Comments:</label>
+             <textarea name="Comments" id="Comments" cols="30"
+                 rows="10"></textarea required>
+         </div>
+         <div>
+         <input type="Submit" value="Submit">
+        </div>
+     </form>
+    </section>
+    <footer>
+        &copy; TEMPLE inn & suite | <span id="current-date"></span> | Sarah Romero
+    </footer>
+    <script src="javascript/temple.js"></script>
+</body>
+</main>
+</html>

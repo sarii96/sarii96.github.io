@@ -177,3 +177,52 @@ margin:2em ;
     padding: 5em;
     text-align: center;
 }
+.flex3 p{
+text-align: center;
+margin: 2em;
+margin-top: 0em;
+}
+
+.flex3 button {
+    margin-bottom:.5em ;
+}
+
+#housing {
+    background-color: #F2F3F4;
+    border-radius: 25px;
+    margin: 2em;
+    padding: 2em;  
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    grid-template-columns: 1fr;
+}
+ 
+  #housing img{
+     width: 800px;
+     height: 500px;
+     margin-left: 17em;
+     margin-bottom: 1em;
+  } 
+
+#housing h1, h2, p{
+    text-align: center;
+}
+#housing input, textarea {
+
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    padding:1em; 
+
+    
+    }
+
+    form {
+       margin: 5em;
+    }
+
+

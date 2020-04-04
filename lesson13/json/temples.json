@@ -1,0 +1,35 @@
+[
+    {
+        "TempleName": "Madrid Spain Temple",
+        "StreetLine1": "Calle Del Temple No 2",
+        "StreetLine2": "",
+        "City": "Madrid",
+        "State": "",
+        "Country": "Spain",
+        "Zip": "28030",
+        "Email": "madridspaintemple@lds.com",
+        "Services": [
+            "Clothing rental available",
+            "Cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "History": [
+            {
+                "Date": "4 April 1993",
+                "Milestone": "Announced"
+            }, 
+            {
+                "Date": "11 June 1996",
+                "Milestone": "Groundbreaking"
+            },
+            {
+                "Date": "19 March 1999",
+                "Milestone": "Dedicated"
+            }
+        ],  
+            [
+
+             ]
+    }
+]
