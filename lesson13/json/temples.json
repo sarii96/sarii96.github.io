@@ -1,12 +1,10 @@
 [
     {
         "TempleName": "Madrid Spain Temple",
-        "StreetLine1": "Calle Del Temple No 2",
-        "StreetLine2": "",
+        "Address": "Calle Del Templo No 2, Madrid, 28030 Madrid, Spain",
         "City": "Madrid",
-        "State": "",
         "Country": "Spain",
-        "Zip": "28030",
+        "Telephone":"(34) 91-214-2607",
         "Email": "madridspaintemple@lds.com",
         "Services": [
             "Clothing rental available",
@@ -28,8 +26,186 @@
                 "Milestone": "Dedicated"
             }
         ],  
-            [
+           "Schedule": {
+               
+               "Endowment": ["8:00 AM, 9:00 AM, 11:00 AM, 12:00 AM"],
+                "Baptism": ["9:00 AM  - 12:00 AM (Appointments only)"],
+                "Sealing": ["9:00 AM - 12:00 AM"]
+               
+            },
+            "templeClosures": [
+                "Tuesday, 31 December 2019 - Wednesday. 1 January 2020",
+                "Saturday, 4 April 2020 - Sunday, 5 April 2020",
+                "Friday, 1 May 2020",
+                "Monday, 20 July 2020 - Monday, 18 May 2020",
+                "Monday, 20 July 2020",
+                "Friday, 7 August 2020",
+                "Saturday, 3 October 2020 - Sunday, 4 October 2020",
+                "Monday, 16 November 2020 - Monday, 30 November 2020",
+                "Thurday, 24 December 2020 - Friday, 25 December 2020",
+                "Thurday, 31 December 2020- Friday, 1 January 2021"
+            ],
+         "Image":"https://assets.ldscdn.org/80/5d/805d70b4606a3a2220b2291c80e954b86a8ee94b/madrid_spain_temple_lds.jpeg"
+    
+    },
 
-             ]
+    {
+        "TempleName": "Buenos Aires Argentina Temple",
+        "Address": "Aut. Tte. Gral. Riccheri N° 4955, B1778DUA, Ciudad Evita, Buenos Aires, Argentina,",
+        "City": "Buenos Aires",
+        "Country": "Argentina",
+        "Zip": "B1778DUA",
+        "Telephone":"(54) 11-4693-9700",
+        "Email": "buenosairestemple@lds.com",
+        "Services": [
+            "Clothing rental available",
+            "Cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "History": [
+            {
+                "Date": "2 April 1980",
+                "Milestone": "Announced"
+            }, 
+            {
+                "Date": "20 April 1983 ",
+                "Milestone": "Groundbreaking"
+            },
+            {
+                "Date": "17 January 1986 ",
+                "Milestone": "Dedicated"
+            },
+            {
+                "Date": "9 September 2012",
+                "Milestone": "Rededicated"
+            }
+        ],  
+           "Schedule": {
+               
+               "Endowment": ["8:00 AM, 9:00 AM, 11:00 AM, 12:00 AM"],
+                "Baptism": ["9:00 AM  - 12:00 AM (Appointments only)"],
+                "Sealing": ["9:00 AM - 12:00 AM"]
+               
+            },
+            "templeClosures": [
+                "Tuesday, 31 December 2019 - Wednesday. 1 January 2020",
+                "Saturday, 4 April 2020 - Sunday, 5 April 2020",
+                "Friday, 1 May 2020",
+                "Monday, 20 July 2020 - Monday, 18 May 2020",
+                "Monday, 20 July 2020",
+                "Friday, 7 August 2020",
+                "Saturday, 3 October 2020 - Sunday, 4 October 2020",
+                "Monday, 16 November 2020 - Monday, 30 November 2020",
+                "Thurday, 24 December 2020 - Friday, 25 December 2020",
+                "Thurday, 31 December 2020- Friday, 1 January 2021"
+            ]
+         
+    
+    },
+    {
+        "TempleName": "Rome Italy Temple",
+        "Address": "Via di Settebagni 376, Rome RM, Italy",
+        "City": "Rome",
+        "Country": "Italy",
+        "Zip": "none",
+        "Telephone": "(39) 06-9480-5050",
+        "Email": "romeitalytemple@lds.com",
+        "Services": [
+            "Clothing rental available",
+            "Cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "History": [
+            {
+                "Date": "4 October 2008",
+                "Milestone": "Announced"
+            }, 
+            {
+                "Date": "23 October 2010",
+                "Milestone": "Groundbreaking"
+            },
+            {
+                "Date": "10 March 2019",
+                "Milestone": "Dedicated"
+            }
+        ],  
+           "Schedule": {
+               
+               "Endowment": ["4:30 PM, 6:30 PM, 7:30 PM"],
+                "Baptism": ["4:30 PM - 7:30 PM"],
+                "Sealing": ["4:30 PM - 7:30 PM"]
+               
+            },
+            "templeClosures": [
+                "Tuesday, 31 December 2019 - Wednesday. 1 January 2020",
+                "Saturday, 4 April 2020 - Sunday, 5 April 2020",
+                "Friday, 1 May 2020",
+                "Monday, 20 July 2020 - Monday, 18 May 2020",
+                "Monday, 20 July 2020",
+                "Friday, 7 August 2020",
+                "Saturday, 3 October 2020 - Sunday, 4 October 2020",
+                "Monday, 16 November 2020 - Monday, 30 November 2020",
+                "Thurday, 24 December 2020 - Friday, 25 December 2020",
+                "Thurday, 31 December 2020- Friday, 1 January 2021"
+            ]
+         
+    
+    },
+    
+    {
+        "TempleName": "Lima Peru Temple",
+        "Address": "Av. Javier Prado Este 6420, Urb. Santa Patricia, La Molina, Lima 12, Peru",
+        "City": "Lima",
+        "Country": "Peru",
+        "Zip": "none",
+        "Email": "limaperutemple@lds.com",
+        "Services": [
+            "Clothing rental available",
+            "Cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "History": [
+            {
+                "Date": "1 April 1981",
+                "Milestone": "Announced"
+            }, 
+            {
+                "Date": "11 September 1982",
+                "Milestone": "Groundbreaking"
+            },
+            {
+                "Date": "10 January 1986",
+                "Milestone": "Dedicated"
+            }
+        ],  
+           "Schedule": {
+               
+               "Endowment": ["Every hour from 8:00 AM to 8:00 PM"],
+                "Baptism": ["9:00 AM  - 12:00 AM (Appointments only)"],
+                "Sealing": ["4:00 PM - 6:00 PM, 6:00 PM - 8:00 PM, 8:00 PM - 9:00 PM"]
+               
+            },
+            "templeClosures": [
+                "Tuesday, 31 December 2019 - Wednesday. 1 January 2020",
+                "Saturday, 4 April 2020 - Sunday, 5 April 2020",
+                "Friday, 1 May 2020",
+                "Monday, 20 July 2020 - Monday, 18 May 2020",
+                "Monday, 20 July 2020",
+                "Friday, 7 August 2020",
+                "Saturday, 3 October 2020 - Sunday, 4 October 2020",
+                "Monday, 16 November 2020 - Monday, 30 November 2020",
+                "Thurday, 24 December 2020 - Friday, 25 December 2020",
+                "Thurday, 31 December 2020- Friday, 1 January 2021"
+            ]
+         
+    
     }
+    
+    
+    
+
 ]
+

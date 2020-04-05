@@ -1,4 +1,5 @@
-  ul {
+
+ ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -225,4 +226,44 @@ margin-top: 0em;
        margin: 5em;
     }
 
+    #wedding img{
+        height:500px;
+        width: 900px;
+    margin-left: 15em ;
+    }
 
+    #wedding {
+        background-color: #F2F3F4;
+        border-radius: 25px;
+        margin-left: 3em;
+        margin-right: 3em;
+        
+    }
+   #hero{
+background-image: url(/lesson13/images/rome.jpg);
+    height: 410px;
+    background-size: cover;
+    background-position: center;
+   }
+
+   #find{
+       background-color: black;
+       margin: 5em;
+   }
+   #find h2{
+       color: white;
+       padding-bottom: 2em;
+       text-align: center;
+   }
+
+   #find img{
+       width: 200px;
+       margin: 2em;
+       margin-left: 35em;
+       
+   }
+
+
+h1, h2, h3, ul, p, footer {
+    font-family: 'Raleway', sans-serif;
+}
